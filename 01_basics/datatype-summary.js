@@ -19,3 +19,10 @@ const bigNumber = 2345678987654323456789n
 // Reference (NON-PRIMITIVE)
 
 // Array, Objects, Functions
+
+const heros = ["shaktiman", "naagraj", "doga"]
+let myObj =  {
+    name: "hariom";
+    age: 22;
+}
+
