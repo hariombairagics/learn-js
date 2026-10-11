@@ -9,6 +9,12 @@ const isLoggedIn = false
 const outsideTemp = null 
 let userEmail;
 
+const id = Symbol('123')
+const anotherId = symbol('123')
+
+console.log(id === anotherId);
+
+const bigNumber = 2345678987654323456789n
 
 // Reference (NON-PRIMITIVE)
 
