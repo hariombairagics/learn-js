@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="box" style="width:200px; height:100px; border:1px solid black;">
+  Mouse yahan laao
+</div>
+
+<script>
+const box = document.getElementById("box");
+
+box.addEventListener("mouseover", function () {
+  box.innerHTML = "Mouse is over me!";
+});
+
+box.addEventListener("mouseout", function () {
+  box.innerHTML = "Mouse is out!";
+});
+
+</script>
+</body>
+</html>
