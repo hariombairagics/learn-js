@@ -40,6 +40,29 @@
                 return;
             }
 
+            let newdob = new Date(dob);
+            console.log(newdob);
+            const currentDate = new Date(cdate);
+            console.log(currentDate);
+
+            let age = currentDate.getFullYear() - newdob.getFullYear();
+            let monthDifference = currentDate.getMonth() - newdob.getMonth();
+            let daysDifference = currentDate.getDate() - newdob.getDate();
+
+            if (daysDifference < 0){
+                monthDifference--;
+                const previousMonth = new Date(currentDate.getFullYear(), currentDate.getMonth(), 0);
+                console.log(previousMonth.getDate());
+                daysDifference += previousMonth.getDate();
+            }
+
+            if (monthDifference < 0 || (monthDifference === 0 && currentDate.getDate() < newdob.getDate())){
+                age--;
+                monthDifference += 12;
+
+            }
+            document.getElementById('currentAge').innerHTML = `${age} _ ${monthDifference} _ ${daysDifference}`;
+
             
         }
     </script>
