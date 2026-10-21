@@ -18,3 +18,8 @@ const hundreds = 1000000
 // ++++++++++++++ MATHS ++++++++++++++++++++++++++++++++++
 
 
+
+
+console.log(Math);
+console.log(Math.abs(-4));
+
