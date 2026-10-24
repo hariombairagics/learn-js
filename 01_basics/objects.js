@@ -22,4 +22,10 @@ console.log(JsUser["full name"]);
 console.log(JsUser[mySym]);
 console.log(typeof JsUser[mySym]);
 
+JsUser.email = "hariombairagi@gmail.com"
+Object.freeze(JsUser)
+JsUser.email = "hariomchat@gmail.com"
+console.log(JsUser);
 
+
+ 
