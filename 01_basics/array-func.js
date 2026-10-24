@@ -1,7 +1,10 @@
-const marvel_Heros = ["spiderman", "iron man", "thor", "loki"]
+const marvel_heros = ["spiderman", "iron man", "thor", "loki"]
 
-const dc_Heros = ["superman", "batman", "flash", "aquaman"]
+const dc_heros = ["superman", "batman", "flash", "aquaman"]
 
-marvel_Heros.push(dc_Heros)
+// marvel_heros.push(dc_heros)
 
-console.log(marvel_Heros);
+// console.log(marvel_heros);
+
+const allHeros = marvel_heros.concat(dc_heros)
+console.log(allHeros);
