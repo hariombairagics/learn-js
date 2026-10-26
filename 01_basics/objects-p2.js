@@ -55,7 +55,7 @@ console.log(Object.keys(tinderUser)); // --> output array me aara hai [keys]
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 // console.log(tinderUser.hasOwnProperty('isLogged'));
 
 
