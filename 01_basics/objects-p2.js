@@ -64,5 +64,8 @@ console.log(user.fullname?.userfullname);
 
 
 const obj5 = { name: "Hariom" };
+const obj6 = { name: "Rahul" };
+const result = Object.assign({}, obj5, obj6);
+console.log(result.name);
 
 
