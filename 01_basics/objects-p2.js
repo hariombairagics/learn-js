@@ -68,4 +68,9 @@ const obj6 = { name: "Rahul" };
 const result = Object.assign({}, obj5, obj6);
 // console.log(result.name);
 
+console.log(Object.hasOwn(tinderUser, "isLoggedIn"));
+// true
+
+
+
 
