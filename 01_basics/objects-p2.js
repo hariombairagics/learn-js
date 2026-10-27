@@ -71,6 +71,8 @@ const result = Object.assign({}, obj5, obj6);
 console.log(Object.hasOwn(tinderUser, "isLoggedIn"));
 // true
 
+console.log(Object.hasOwn(tinderUser, "age"));
+// false
 
 
 
