@@ -9,3 +9,4 @@ const gameName = new String('HariomBairagi')
 
 let s = "hello"
 s.toUpperCase();
+console.log(s);
