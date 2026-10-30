@@ -16,4 +16,5 @@ let second = first;
 
 second.push(3);
 
-
+console.log(first);  
+console.log(second); 
