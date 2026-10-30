@@ -10,3 +10,7 @@ console.log(accountPassword);
 
 // this is comment sign
 /* this is also comment */
+
+let first = [1, 2];
+let second = first;
+
