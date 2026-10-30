@@ -37,3 +37,13 @@ console.log(gender);
 console.log(typeof gender);
 
 // symbol => unique 
+
+console.log(typeof "Hello");    
+console.log(typeof 100);        
+console.log(typeof true);      
+console.log(typeof undefined);  
+console.log(typeof 123n);       
+console.log(typeof Symbol());   
+console.log(typeof {});        
+console.log(typeof []);         
+console.log(typeof null);       
