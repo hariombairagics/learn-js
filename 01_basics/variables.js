@@ -14,3 +14,6 @@ console.log(accountPassword);
 let first = [1, 2];
 let second = first;
 
+second.push(3);
+
+
