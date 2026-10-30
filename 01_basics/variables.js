@@ -18,3 +18,11 @@ second.push(3);
 
 console.log(first);  
 console.log(second); 
+
+
+let value = 100;
+
+value = "Hello";
+value = false;
+
+console.log(value); 
