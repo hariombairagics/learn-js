@@ -47,3 +47,7 @@ console.log(typeof Symbol());
 console.log(typeof {});        
 console.log(typeof []);         
 console.log(typeof null);       
+
+let a = { score: 10 };
+let b = a;
+
