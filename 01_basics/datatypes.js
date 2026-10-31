@@ -58,3 +58,5 @@ b = { score: 50 };
 console.log(a.score);
 console.log(b.score);
 
+a.score = 30;
+console.log(b.score);
