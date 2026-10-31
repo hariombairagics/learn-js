@@ -54,3 +54,7 @@ let b = a;
 b.score = 20;
 console.log(a.score);
 
+b = { score: 50 };
+console.log(a.score);
+console.log(b.score);
+
