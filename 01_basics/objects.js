@@ -47,5 +47,6 @@ const user1 = {};
 // Constructor syntax
 const user2 = new Object();
 
-
+console.log(user1); // {}
+console.log(user2); // {}
  
