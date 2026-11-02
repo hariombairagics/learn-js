@@ -41,5 +41,8 @@ const key = "name";
 console.log(user[key]);
 
 
+// Object literal
+const user1 = {};
+
 
  
