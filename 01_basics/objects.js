@@ -44,5 +44,8 @@ console.log(user[key]);
 // Object literal
 const user1 = {};
 
+// Constructor syntax
+const user2 = new Object();
+
 
  
