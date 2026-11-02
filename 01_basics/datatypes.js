@@ -60,3 +60,4 @@ console.log(b.score);
 
 a.score = 30;
 console.log(b.score);
+
