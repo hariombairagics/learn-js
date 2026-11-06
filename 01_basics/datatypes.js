@@ -68,3 +68,8 @@ copiedScore = 100;
 
 console.log(score);
 console.log(copiedScore);
+
+
+let heroes = ["Hero1", "Hero2"];
+let copiedHeroes = heroes;
+copiedHeroes.push("Hero3");
