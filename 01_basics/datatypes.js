@@ -73,3 +73,11 @@ console.log(copiedScore);
 let heroes = ["Hero1", "Hero2"];
 let copiedHeroes = heroes;
 copiedHeroes.push("Hero3");
+
+
+console.log(heroes);
+console.log(copiedHeroes);
+
+console.log(typeof null);
+console.log(typeof []);
+console.log(typeof 123n);
