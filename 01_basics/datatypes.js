@@ -65,3 +65,6 @@ let score = 50;
 let copiedScore = score;
 copiedScore = 100;
 
+
+console.log(score);
+console.log(copiedScore);
