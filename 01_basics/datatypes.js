@@ -61,3 +61,7 @@ console.log(b.score);
 a.score = 30;
 console.log(b.score);
 
+let score = 50;
+let copiedScore = score;
+copiedScore = 100;
+
